@@ -1,6 +1,7 @@
 .header {
   box-shadow: 0 5px 10px #ddd;
   margin-bottom: 30px;
+  background-color: white;
 }
 
 .nav {

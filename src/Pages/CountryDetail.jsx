@@ -13,7 +13,7 @@ const CountryDetail = () => {
     loading,
     error,
   } = useCountry(countryName.toLowerCase());
-  console.log(CountryDetail);
+  
 
   if (loading) return <h1 className="loading">Loading Detail...</h1>;
 

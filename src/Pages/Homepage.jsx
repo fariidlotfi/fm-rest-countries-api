@@ -64,7 +64,7 @@ const Homepage = () => {
       <section className="country_grid">
         {filteredCountries.map((country) => (
           <Link
-            to={`/country/${country.name.common}`}
+            to={`/country/${country.name.common.toLowerCase()}`}
             key={country.name.common}
           >
             <CountryCard
