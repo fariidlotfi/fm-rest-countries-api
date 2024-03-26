@@ -1,0 +1,20 @@
+.header {
+  box-shadow: 0 5px 10px #ddd;
+  margin-bottom: 30px;
+}
+
+.nav {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 500px) {
+  .nav {
+    flex-direction: column;
+    gap: 10px;
+  }
+}

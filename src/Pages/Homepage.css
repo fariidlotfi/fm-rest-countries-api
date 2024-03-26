@@ -1,0 +1,38 @@
+.main {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.country_grid {
+  margin: 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+}
+
+.main__filters {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+  .country_grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media screen and (max-width: 800px) {
+  .country_grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .main__filters {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .country_grid {
+    grid-template-columns: 1fr;
+  }
+}

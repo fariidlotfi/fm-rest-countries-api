@@ -1,0 +1,13 @@
+.select__input {
+  padding: 10px 25px;
+  background-color: white;
+  box-shadow: 0 0 10px #ddd;
+  border: none;
+  outline: none;
+  text-transform: capitalize;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}

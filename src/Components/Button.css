@@ -1,0 +1,23 @@
+.custom_button {
+  padding: 10px 30px;
+  background-color: white;
+  /*box-shadow: 0 0 5px #b4b4b4;
+  */
+  cursor: pointer;
+  border: 1px solid #ddd;
+  outline: none;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+
+.custom_button:hover {
+  background-color: aquamarine;
+}
