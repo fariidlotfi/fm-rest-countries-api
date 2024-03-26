@@ -7,5 +7,6 @@ export default defineConfig({
     port: 5173,
     open: true,
   },
+  base: "/fm-rest-countries-api",
   plugins: [react()],
 });
